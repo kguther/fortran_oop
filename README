@@ -3,3 +3,28 @@ offers for Object Oriented Programming (and what it does not). All files are
 standalone modules or programs and serve mainly the purpose of showing how OOP
 features in fortran work, using either abstract examples or use simple use
 cases that could appear in numerical code.
+
+Objects:
+  type_bound.F90  - introduces member functions
+  construction.F90 - introduces factories
+  finalization.F90 - introduces destructors
+  assignment.F90 - operator overloading and copy-assignment
+  generic.F90 - generic type bound procedures
+
+Encapsulation:
+  encapsulation.F90 - introduces how encapsulation works in Fortran
+  encapsulation_split.F90 - better example of how it should be done
+  lattice.F90 - use case example for a lattice class consisting of points
+  
+Polymorphism:
+  inheritance.F90 - introduces inheritance
+  override.F90 - how to override member functions
+  static_override.F90 - how to override static member functions
+  polymorphism.F90 - introduces polymorphism
+  invalid_assignment.F90 - counterexample for working with polymorphic types
+  abstract_type.F90 - introduces abstract base classes
+ 
+Further examples:
+  param_type.F90 - parametrized objects (only very limited support)
+  select_type.F90 - explicit type deduction
+  
