@@ -91,6 +91,3 @@ contains
         end if
     end function adjacent_square
 end module lattices
-
-program build_lattice
-end program build_lattice

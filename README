@@ -1,0 +1,5 @@
+This is a collection of small examples illustrating what features Fortran
+offers for Object Oriented Programming (and what it does not). All files are
+standalone modules or programs and serve mainly the purpose of showing how OOP
+features in fortran work, using either abstract examples or use simple use
+cases that could appear in numerical code.
